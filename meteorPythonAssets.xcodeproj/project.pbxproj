@@ -8,12 +8,14 @@
 
 /* Begin PBXFileReference section */
 		0047412F18B722FF004A8DE4 /* test1.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = test1.py; sourceTree = "<group>"; };
+		00AB1A9918B738FF00D8CCD1 /* paDragonBoard.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = paDragonBoard.java; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXGroup section */
 		0047412418B722F0004A8DE4 = {
 			isa = PBXGroup;
 			children = (
+				00AB1A9918B738FF00D8CCD1 /* paDragonBoard.java */,
 				0047412F18B722FF004A8DE4 /* test1.py */,
 			);
 			sourceTree = "<group>";
@@ -168,6 +170,7 @@
 				0047412E18B722F0004A8DE4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
