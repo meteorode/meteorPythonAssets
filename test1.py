@@ -47,7 +47,26 @@ def InitialDefiniteBoard(board_string):  # read a string like 'A F C' to generat
 
     printGameBoard(GameBoard)
 
-# main program body
+def CheckNeighbor(element):
+    # an element like e[n] which is ordinarily connected with e[n-1],e[n+1],e[n-6],e[n+6] and if any n+/-x out of range simply discard
+    neighbor = []
+    if element-1 >= 0:  neighbor.append(element-1)
+    if element+1 <= 29: neighbor.append(element+1)
+    if element-6 >= 0: neighbor.append(element-6)
+    if element+6 <= 29: neighbor.append(element+6)
+    return neighbor
 
-#InitialRandomBoard()
-InitialDefiniteBoard('A A A A A A')
+def CheckBoard(board):   # check whether there's 3-match in a board, which args board is a 5*6 char array
+    # checking algorithm: from b[0],
+    pass
+
+# test cases
+
+def test():
+
+    #InitialRandomBoard()
+    InitialDefiniteBoard('A A A A A A')
+    #print (CheckNeighbor(28))
+
+# main program body
+test()
